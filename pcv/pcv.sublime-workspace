@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cars",
+				"cars_driven"
+			],
+			[
+				"dark",
+				"dark-blue-1"
+			],
+			[
+				"title_",
+				"title_fontfam_bold"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"title_font",
+				"title_fontfam_bold"
+			],
+			[
+				"bebas",
+				"bebas_fontfam"
+			],
+			[
+				"fon",
+				"title_fontfam_bold"
+			],
+			[
+				"hero",
+				"hero_gradient"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/GP70/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 134,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 362.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/GP70/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/GP70/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/index.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/fonts/icomoon.svg",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_print.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_page-styles.scss",
+		"/C/Users/GP70/Desktop/Web Projects/Park City Vaccines/immigration.html",
+		"/C/Users/GP70/Desktop/Web Projects/Park City Vaccines/faq.html",
+		"/C/Users/GP70/Desktop/Web Projects/Park City Vaccines/travel.html",
+		"/C/Users/GP70/Desktop/Web Projects/Park City Vaccines/home.html",
+		"/C/Users/GP70/Desktop/Web Projects/Park City Vaccines/old-site-backup/public_html/redesign/formmail.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/header.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/contact.php",
+		"/C/wamp64/www/pcv/form-parser.php",
+		"/C/wamp64/www/pcv/form-parser-2.php",
+		"/C/wamp64/www/pcv/wp-config.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_spacing.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/styles.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_forms.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_menu.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/backpage.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/sidebar.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_colors.scss",
+		"/C/Users/GP70/Dropbox/Park City Vaccines - Files/formmail.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/homepage.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/home.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/js/form-validation.js",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/footer.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/news.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_helpers.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_grid.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_variables.scss",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_NiceSimpleContactForm.zip/NiceSimpleContactForm/contactengine.php",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_php-email-contact-form.zip/contact-form-handler.php",
+		"/C/Users/GP70/Dropbox/Park City Vaccines - Files/website materials/website/PHP Version/index.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_fonts.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/fonts/opensans-regular-webfont.woff",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/fonts/lato-regular-webfont.woff",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/fonts/lato-light-webfont.woff",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/css/styles.css",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_header.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_footer.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/twentyfourteen/sidebar.php",
+		"/C/wamp64/www/pcv/wp-content/themes/twentyfifteen/sidebar.php",
+		"/C/wamp64/www/pcv/wp-content/themes/twentysixteen/sidebar.php",
+		"/C/wamp64/www/pcv/wp-includes/general-template.php",
+		"/C/wamp64/www/pcv/wp-includes/template.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_buttons.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/single.php",
+		"/C/Users/GP70/Dropbox/pcv/wp-content/themes/pcv/page.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/index2.php",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_icomoon (5).zip/style.css",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/call-posts.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/page.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/style.css",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_icomoon (4).zip/style.css",
+		"/C/wamp64/www/pcv/wp-content/themes/twentysixteen/template-parts/content-page.php",
+		"/C/wamp64/www/pcv/wp-content/themes/twentysixteen/page.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_mixins.scss",
+		"/C/wamp64/www/pcv/wp-includes/link-template.php",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/css/base.css",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/pcv.sublime-project",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_typography.scss",
+		"/C/wamp_old/www/dev1/styles/_icon-fonts.scss",
+		"/C/wamp_old/www/dev1/styles/_base-grid.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_grid-non-responsive.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_grid2.scss",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_webfontkit-20160905-160354.zip/stylesheet.css",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_resets.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_lists.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/_tables.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/pcv/assets/sass/base.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/twentysixteen/index.php",
+		"/C/Users/GP70/Desktop/athlete-speakers-laptop/code/styles/athlete-speakers.sublime-project",
+		"/C/wamp64/www/pcv/wp-content/themes/twentysixteen/style.css",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_matthewhartman-base-v3.1.5-0-g7f0fc02.zip/matthewhartman-base-7f0fc02/src/scss/styles.scss",
+		"/C/wamp64/www/pcv/wp-content/themes/assets/styles.scss",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_matthewhartman-base-v3.1.5-0-g7f0fc02.zip/matthewhartman-base-7f0fc02/src/scss/base.scss",
+		"/C/wamp64/www/pcv/wp-load.php",
+		"/C/wamp64/www/pcv/wp-blog-header.php",
+		"/C/wamp64/www/pcv/index.php",
+		"/C/wamp64/www/pcv/wp-content/themes/index.php",
+		"/C/wamp/www/pcv/index.html",
+		"/C/Users/GP70/Desktop/ex4.py",
+		"/C/Users/GP70/Desktop/ex3.py",
+		"/C/Users/GP70/Desktop/ex1.py",
+		"/C/wamp/www/dev2/app/views/includes/search-bar.blade.php",
+		"/C/wamp/www/dev2/public/scss/_responsive.scss",
+		"/C/wamp/www/dev2/app/views/home.blade.php",
+		"/C/wamp/www/dev2/public/scss/_slider.scss",
+		"/C/wamp/www/dev2/public/scss/stylesheet.scss",
+		"/C/wamp/www/dev2/app/views/bio.blade.php",
+		"/C/wamp/www/dev2/public/scss/_base-grid.scss",
+		"/C/wamp/www/dev2/public/scss/_fonts.scss",
+		"/C/Users/GP70/Downloads/icomoon3/style.css",
+		"/C/wamp/www/dev2/app/controllers/SiteController.php",
+		"/C/wamp/www/dev2/app/views/blog_home.blade.php",
+		"/C/wamp/www/dev2/app/views/landing-page.blade.php",
+		"/C/wamp/www/dev2/app/views/thank.blade.php",
+		"/C/wamp/www/dev2/app/views/sport-team.blade.php",
+		"/C/wamp/www/dev2/app/views/search.blade.php",
+		"/C/wamp/www/dev2/app/views/page.blade.php",
+		"/C/wamp/www/dev2/app/views/blog.blade.php",
+		"/C/wamp/www/dev2/app/views/bio-view.blade.php",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_bebas-neue-fontfacekit.zip/web fonts/bebasneue_regular_macroman/stylesheet.css",
+		"/C/wamp/www/dev2/app/views/includes/side_form.blade.php",
+		"/C/wamp/www/dev2/app/views/layouts/site.blade.php",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_Bebas-fontfacekit.zip/web fonts/bebas_regular_macroman/stylesheet.css",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_BEBAS___.zip/bebas___.css",
+		"/C/wamp/www/dev2/public/scss/_icon-fonts.scss",
+		"/C/wamp/www/dev2/app/views/includes/side_form2.blade.php",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_icomoon(2).zip/style.css",
+		"/C/Users/GP70/Desktop/Family-Photos_rs/jimmy_viper1.jpg",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_icomoon(1).zip/style.css",
+		"/C/wamp/www/dev2/app/views/errors/404.blade.php",
+		"/C/wamp/www/dev2/public/scss/_form-style.scss",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_icomoon (2).zip/style.css",
+		"/C/Users/GP70/Downloads/index.php",
+		"/C/wamp/www/dev2/app/views/includes/pagination.blade.php",
+		"/C/Users/GP70/AppData/Local/Temp/Temp1_icomoon (1).zip/style.css",
+		"/C/wamp/www/dev2/public/js/script.js",
+		"/C/wamp/www/dev1/includes/footer.php",
+		"/C/wamp/www/dev2/index.php",
+		"/C/wamp/www/dev1/styles/form-style.css",
+		"/C/wamp/www/dev1/landing-page.php",
+		"/C/wamp/www/dev1/styles/_form-style.scss",
+		"/C/wamp/www/dev1/styles/stylesheet.scss",
+		"/C/wamp/www/dev1/search.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\wamp64\\www\\pcv\\wp-content\\themes\\pcv\\assets\\sass",
+			"C:\\wamp64\\www\\pcv\\",
+			"C:\\wamp64\\www\\pcv\\wp-content\\themes\\pcv\\assets\\sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ignored",
+			"li",
+			"pcv",
+			"3",
+			"n1Name",
+			"mobile-text-center",
+			"mb--s",
+			"col-12",
+			"h2",
+			"li",
+			"departure-date",
+			"destination",
+			"Destination",
+			"destination",
+			"Destination",
+			"destination",
+			"phone",
+			"Phone",
+			"phone",
+			"last-name",
+			"first",
+			"First",
+			"first",
+			"a",
+			"div",
+			"a",
+			"div",
+			"Menu",
+			"menu",
+			"Menu",
+			"Home",
+			"span",
+			"act",
+			"mainMenu",
+			"none",
+			"home_url",
+			"WP_CONTENT_URL",
+			"no-mobile",
+			"col-2",
+			"col",
+			"mobile-full",
+			"ul",
+			"four",
+			"Park City Vaccines Office Building",
+			"six",
+			"center",
+			"base/",
+			"hero",
+			"search-bar2",
+			"search",
+			"hero",
+			".search-bar2",
+			"icon-triangle",
+			"hero",
+			"section",
+			"sideform",
+			"side-list",
+			"sideform",
+			"03324a",
+			"sideform",
+			"h1",
+			"sideform",
+			"section",
+			"section ",
+			"section",
+			"sideform",
+			"form",
+			"sideform",
+			"si",
+			"sideform",
+			"relative",
+			"sideform",
+			"search-result",
+			"search-results",
+			"search-pg",
+			"hero",
+			"landing-pg",
+			"rm-link",
+			"mobile-filters",
+			"--search-nav",
+			"reset",
+			"filter results",
+			"search-nav",
+			"reset",
+			"search",
+			"filter",
+			"button",
+			"category-tag",
+			"resultes",
+			"button",
+			"bio",
+			"divider",
+			"category",
+			"footer-cta",
+			"responsive",
+			"tablet-full mobile-full",
+			"mobile-cent",
+			"mobile-cente",
+			"mobile-center",
+			".mobile-menu",
+			"inline-cta",
+			"search-nav",
+			"tablet-full",
+			"footer-cta",
+			".none",
+			"none",
+			"header",
+			"why use us",
+			"tablet-full",
+			"why use us",
+			"header",
+			"form",
+			"span",
+			"url",
+			"why use",
+			"why-use-us",
+			"who-we-are",
+			"span",
+			"ooter",
+			"button",
+			"header",
+			"dev2",
+			"footer-cta",
+			"search-nav",
+			"news",
+			"category",
+			"Category",
+			"category"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/GP70/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.460932871446,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pcv.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"conta",
+				"contact.php"
+			],
+			[
+				"col",
+				"assets\\sass\\_colors.scss"
+			],
+			[
+				"spacin",
+				"assets\\sass\\_spacing.scss"
+			],
+			[
+				"helper",
+				"assets\\sass\\_helpers.scss"
+			],
+			[
+				"page",
+				"assets\\sass\\_page-styles.scss"
+			],
+			[
+				"hel",
+				"assets\\sass\\_helpers.scss"
+			],
+			[
+				"grid",
+				"assets\\sass\\_grid.scss"
+			],
+			[
+				"back",
+				"backpage.php"
+			],
+			[
+				"spacing",
+				"assets\\sass\\_spacing.scss"
+			],
+			[
+				"header",
+				"assets\\sass\\_header.scss"
+			],
+			[
+				"styles",
+				"assets\\sass\\styles.scss"
+			],
+			[
+				"style",
+				"assets\\css\\styles.css"
+			],
+			[
+				"colo",
+				"assets\\sass\\_colors.scss"
+			],
+			[
+				"font",
+				"assets\\sass\\_fonts.scss"
+			],
+			[
+				"menu",
+				"assets\\sass\\_menu.scss"
+			],
+			[
+				"bu",
+				"assets\\sass\\_buttons.scss"
+			],
+			[
+				"coo",
+				"assets\\sass\\_colors.scss"
+			],
+			[
+				"butt",
+				"assets\\sass\\_buttons.scss"
+			],
+			[
+				"pag",
+				"assets\\sass\\_page-styles.scss"
+			],
+			[
+				"coor",
+				"assets\\sass\\_colors.scss"
+			],
+			[
+				"typ",
+				"assets\\sass\\_typography.scss"
+			],
+			[
+				"helpers",
+				"assets\\sass\\_helpers.scss"
+			],
+			[
+				"men",
+				"assets\\sass\\_menu.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 321.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

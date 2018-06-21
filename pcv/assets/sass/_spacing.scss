@@ -1,0 +1,546 @@
+/* ==========================================================================
+
+// Page Specific Styles (move these to individual sheets for scalability later)
+
+
+========================================================================== */
+
+
+//--------------------------------
+//  Vertical Spacing
+//--------------------------------
+
+//---------lobotomized owl selector to give all adjacent things a top margin ---//
+
+$base-vspace:1.6em;
+
+* + * {margin-top:$base-vspace;}
+
+//------ overrides --------//
+
+.col + .col {margin-top:0;}
+[class^="col-"], [class*=" col-"] {margin-top:0;}
+.menu + *, .menu {margin-top:0;}
+.section + .section {margin-top:0;}
+
+
+.homepage {
+	h1, h2, h3, h4, h5, h6 {margin-top:0;} 
+}
+
+.header__contact {margin-top:0;}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height:1em;
+ }
+
+.footer {
+	margin-top:0;
+}
+//--------------------------------
+//  Horizontal Spacing
+//--------------------------------
+
+
+//  *****************************************
+//
+//   Grid & Spacing
+//	  -> Spacing Variables
+//	  -> Section to Possibly Move
+//    -> Margin Classes
+//	  -> Padding Classes
+//
+// *****************************************
+
+
+
+//------------------------------------------
+// 	  Spacing Variables
+//------------------------------------------
+
+
+	// Vertical Spacing
+
+	$b-vspace-xs:             0.404em;  //old 0.5
+	$b-vspace-s:              0.809em;  // old 1
+	$b-vspace:                1.61em; //old em
+	$b-vspace-m:              2.427em;  //old 1.5
+	$b-vspace-l:              3.23em; //old 3
+	$b-vspace-xl:             4em;
+	$b-vspace-xxl:            6em;
+
+	// Horizontal Spacing
+
+	$b-hspace-s:              1%;
+	$b-hspace:                2%;
+	$b-hspace-m:              3%;
+	$b-hspace-l:              4%;
+	$b-hspace-xl:             6%;
+	$b-hspace-xxl:            8%;
+
+
+//------------------------------------------
+// 	  Margin Classes (mobile first)
+//------------------------------------------
+
+
+	// no margin
+	.no-m{
+		margin: 0;
+	}
+
+	// --- Margin Top
+
+	.mt{
+		margin-top: $b-vspace;
+	}
+
+	.mt--xs{
+		margin-top: $b-vspace-xs;
+	}
+
+	.mt--s{
+		margin-top: $b-vspace-s;
+	}
+
+	.mt--m {
+		margin-top: $b-vspace-m;
+	}
+		
+	.mt--l{
+		margin-top: $b-vspace-l;
+	}
+
+	.mt--xl{
+		margin-top: $b-vspace-xl;
+	}
+
+	.mt--xxl{
+		margin-top: $b-vspace-xxl;
+	}
+
+	.no-mt{
+		margin-top: 0;
+	}
+
+	// --- Margin Bottom
+
+	.mb{
+		margin-bottom: $b-vspace;
+	}
+
+	.mb--xs{
+		margin-bottom: $b-vspace-xs;
+	}
+
+	.mb--s{
+		margin-bottom: $b-vspace-s;
+	}	
+
+	.mb--m{
+		margin-bottom: $b-vspace-m;
+	}	
+
+	.mb--l{
+		margin-bottom: $b-vspace-l;
+	}
+
+	.mb--xl{
+		margin-bottom: $b-vspace-xl;
+	}
+
+	.mb--xxl{
+		margin-bottom: $b-vspace-xxl;
+	}
+
+	.no-mb{
+		margin-bottom: 0;
+	}
+
+	// --- Margin Right
+
+	.mr{
+		margin-right: $b-hspace;
+	}
+
+	.mr--s{
+		margin-right: $b-hspace-s;
+	}
+
+	.mr--m{
+		margin-right: $b-hspace-m;
+	}
+
+	.mr--l{
+		margin-right: $b-hspace-l;
+	}
+		
+	.mr--xl{
+		margin-right: $b-hspace-xl;
+	}
+
+	.mr--xxl{
+		margin-right: $b-hspace-xxl;
+	}
+
+	.no-mr{
+		margin-right: 0;
+	}
+
+	// --- Margin Left
+
+	.ml{
+		margin-left: $b-hspace;
+	}
+
+	.ml--s{
+		margin-left: $b-hspace-s;
+	}
+
+	.ml--m{
+		margin-left: $b-hspace-m;
+	}
+
+	.ml--l{
+		margin-left: $b-hspace-l;
+	}
+		
+	.ml--xl{
+		margin-left: $b-hspace-xl;
+	}
+
+	.ml--xxl{
+		margin-left: $b-hspace-xxl;
+	}
+
+	.no-ml{
+		margin-left: 0;
+	}
+
+	// --- Margin Top Bottom
+
+	.mtb{
+
+		margin-top: $b-vspace;
+		margin-bottom: $b-vspace;
+	}
+
+	.mtb--xs{
+		margin-top: $b-vspace-xs;
+		margin-bottom: $b-vspace-xs;
+	}
+
+	.mtb--s{
+		margin-top: $b-vspace-s;
+		margin-bottom: $b-vspace-s;
+	}
+
+	.mtb--m{
+		margin-top: $b-vspace-m;
+		margin-bottom: $b-vspace-m;
+	}
+		
+	.mtb--l{
+		margin-top: $b-vspace-l;
+		margin-bottom: $b-vspace-l;
+	}
+
+	.mtb--xl{
+		margin-top: $b-vspace-xl;
+		margin-bottom: $b-vspace-xl;
+	}
+
+	.mtb--xxl{
+		margin-top: $b-vspace-xxl;
+		margin-bottom: $b-vspace-xxl;
+	}
+
+	.no-mtb{
+		margin-top:0;
+		margin-bottom:0;
+	}
+
+
+//------------------------------------------
+// 	  Padding Classes
+//------------------------------------------
+
+
+
+	// ----- Padding ----- //
+
+	.p{
+		padding: $b-vspace;
+	}
+	.p--xs{
+		padding: $b-vspace-xs;
+	}
+	
+	.p--s{
+		padding: $b-vspace-s;
+	}
+
+	.p--m {
+		padding: $b-vspace-m;
+	}
+
+	.p--l{
+		padding: $b-vspace-l;
+	}
+
+	.p--xl{
+		padding: $b-vspace-xl;
+	}
+
+	.p--xxl{
+		padding: $b-vspace-xxl;
+	}
+
+	.no-p{
+		padding: 0;
+	}
+
+	// ----- Padding Top ----- //
+
+	.pt{
+		padding-top: $b-vspace;
+	}
+	.pt--xs{
+		padding-top: $b-vspace-xs;
+	}
+	
+	.pt--s{
+		padding-top: $b-vspace-s;
+	}
+
+	.pt--m{
+		padding-top: $b-vspace-m;
+	}
+		
+	.pt--l{
+		padding-top: $b-vspace-l;
+	}
+
+	.pt--xl{
+		padding-top: $b-vspace-xl;
+	}
+
+	.pt--xxl{
+		padding-top: $b-vspace-xxl;
+	}
+
+	.no-pt{
+		padding-top: 0;
+	}
+
+	// ----- Padding Bottom ----- //
+
+	.pb{
+		padding-bottom: $b-vspace;
+	}
+	.pb--xs{
+		padding-bottom: $b-vspace-xs;
+	}
+
+	.pb--s{
+		padding-bottom: $b-vspace-s;
+	}	
+
+	.pb--m{
+		padding-bottom: $b-vspace-m;
+	}	
+
+	.pb--l{
+		padding-bottom: $b-vspace-l;
+	}
+
+	.pb--xl{
+		padding-bottom: $b-vspace-xl;
+	}
+
+	.pb--xxl{
+		padding-bottom: $b-vspace-xxl;
+	}
+
+	.no-pb{
+		padding-bottom:0;
+	}
+
+	// ----- Padding Top Bottom ----- //
+
+	.ptb{
+
+		padding-top: $b-vspace;
+		padding-bottom: $b-vspace;
+	}
+
+	.ptb--xs{
+		padding-top: $b-vspace-xs;
+		padding-bottom: $b-vspace-xs;
+	}
+
+	.ptb--s{
+		padding-top: $b-vspace-s;
+		padding-bottom: $b-vspace-s;
+	}
+
+	.ptb--m{
+		padding-top: $b-vspace-m;
+		padding-bottom: $b-vspace-m;
+	}
+		
+	.ptb--l{
+		padding-top: $b-vspace-l;
+		padding-bottom: $b-vspace-l;
+	}
+
+	.ptb--xl{
+		padding-top: $b-vspace-xl;
+		padding-bottom: $b-vspace-xl;
+	}
+
+	.ptb--xxl{
+		padding-top: $b-vspace-xxl;
+		padding-bottom: $b-vspace-xxl;
+	}
+
+	.no-ptb{
+		padding-top:0;
+		padding-bottom:0;
+	}
+
+	// ----- Padding Right ----- //
+
+	.pr{
+		padding-right: $b-hspace;
+	}
+
+	.pr--s{
+		padding-right: $b-hspace-s;
+	}
+
+	.pr--m {
+		padding-right: $b-hspace-m;
+	}
+
+	.pr--l{
+		padding-right: $b-hspace-l;
+	}
+		
+	.pr--xl{
+		padding-right: $b-hspace-xl;
+	}
+
+	.pr--xxl{
+		padding-right: $b-hspace-xxl;
+	}
+
+	.no-pr{
+		padding-right:0;
+	}
+
+	// ----- Padding Left ----- //
+
+	.pl{
+		padding-left: $b-hspace;
+	}
+	.pl--s{
+		padding-left: $b-hspace-s;
+	}
+
+	.pl--m {
+		padding-left: $b-hspace-m;
+	}
+		
+	.pl--l{
+		padding-left: $b-hspace-l;
+	}
+
+	.pl--xl{
+		padding-left: $b-hspace-xl;
+	}
+
+	.pl--xxl{
+		padding-left: $b-hspace-xxl;
+	}
+
+	.no-pl{
+		padding-left:0;
+	}
+
+	// ----- Padding Left Right ----- //
+
+	.plr{
+
+		padding-left: $b-hspace;
+		padding-right: $b-hspace;
+	}
+
+	.plr--s{
+		padding-left: $b-hspace-s;
+		padding-right: $b-hspace-s;
+	}
+
+	.plr--m{
+		padding-left: $b-hspace-m;
+		padding-right: $b-hspace-m;
+	}
+
+	.plr--l{
+		padding-left: $b-hspace-l;
+		padding-right: $b-hspace-l;
+	}
+		
+	.plr--xl{
+		padding-left: $b-hspace-xl;
+		padding-right: $b-hspace-xl;
+	}
+
+	.plr--xxl{
+		padding-left: $b-hspace-xxl;
+		padding-right: $b-hspace-xxl;
+	}
+
+	.no-plr{
+		padding-left:0;
+		padding-right:0;
+	}
+
+
+	//------------------------------------------
+// 	  Padding Classes
+//------------------------------------------
+
+@include breakpoint(l) {
+
+	.desktop-no-pt {
+		padding-top:0;
+	}
+
+	.desktop-pt {
+
+		padding-top: $b-vspace;
+	}
+
+	.desktop-pt--m{
+		padding-top: $b-vspace-m;
+		
+	}
+
+	.desktop-pb {
+
+		padding-bottom: $b-vspace;
+	}
+
+	.desktop-mb--s{
+		margin-bottom: $b-vspace-s;
+	}
+
+	.desktop-mb--xs{
+		margin-bottom: $b-vspace-xs;
+	}
+
+
+
+	
+}

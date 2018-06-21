@@ -1,0 +1,152 @@
+/* ==========================================================================
+
+// MENU
+
+========================================================================== */
+
+
+.menu {
+	position:fixed;
+
+	display:block;
+	clear:both;
+    color:white;
+    z-index:1;
+    	ul {
+    		padding-left:0;
+    	}
+
+		li{
+			text-align:center;
+			margin-top:0;
+			float:none;
+			color:white;
+			list-style:none;
+			padding:0 0% 0 0%;
+			width:100%;
+			height:50px;
+			border-right:none;
+			border-top: 1px solid $orange-dark;
+
+			a {
+				@include font-size(17);
+				font-family:$titleFont-latoreg;
+				line-height:50px;
+
+			}
+
+			&:hover {
+				background-color: $orange-dark;
+			}
+
+        }
+
+       
+        .menu__btn {
+        	float:left;
+        	border-top:none;
+        	width:100px;
+        	position:relative;
+        	padding-left:18px;
+        	
+
+        	.icon-menu {
+        		position:absolute;
+        	    top:17px;
+        	    left:14px;
+        	}
+        }
+
+        .menu__call {
+        	float:right;
+        	border-top:none;
+        	width:100px;
+        	position:relative;
+        
+
+        	.icon-phone {
+        			position:absolute;
+        		    font-size:13px;
+        		    top:19px;
+        		    left:19px;
+
+
+        	}
+        }
+
+        .menu__search{
+
+        	padding:18px 2% 0 2%;
+        	width:100%;
+        	height:75px;
+        	input {
+        		height:35px;
+        		//width:135px;
+        		width:100%;
+        		font-family:$titleFont-latolight;
+        	}
+        
+        	
+
+        }
+
+        a {
+        	text-decoration:none;
+        	color:white;
+        }
+}
+
+.menu__container {
+	width:100%;
+}
+
+.menu--mobile {
+	position:relative;
+}
+
+
+
+
+@include breakpoint(l) {
+
+	.menu {
+		height:auto;
+		position:relative;
+		z-index:auto;
+		li {
+			float:left;
+			height:auto;
+			border-top:none;
+			border-right: 1px solid $orange-dark;
+			height:45px;
+			width:16%;
+
+			a {
+				line-height:45px;
+			}
+
+		}
+
+		.menu__search {
+		padding:10px 2% 0 2%;
+		width:21%;
+		height:45px;
+		input {
+			height:25px;
+			}
+		}
+
+		.menu__container {
+
+			max-width:1000px;
+		}
+
+	}
+
+	
+}
+
+
+
+
+

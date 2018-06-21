@@ -1,0 +1,190 @@
+/* ==========================================================================
+
+// Page Specific Styles (move these to individual sheets for scalability later)
+
+
+========================================================================== */
+
+
+
+
+
+
+//------------------
+// Homepage 
+//------------------
+
+.hero--hp {
+
+	height:auto;
+	background-image:none;
+	background: #d3e9f4;
+
+	h1 {
+		line-height:1em;
+		font-weight:normal;
+	}
+
+
+}
+
+@include breakpoint(l) {
+	.hero--hp {
+		height:276px;
+        background: #d3e9f4  url('../../../../../wp-content/uploads/2016/10/pcv-hero.jpg') no-repeat center;
+
+	}
+}
+
+
+.or-call {
+	@include font-size (17);
+	color:$bluegreen-dark;
+	font-family:$titleFont-latolight;
+	font-weight:bold;
+	text-decoration:none;
+
+	&:hover {
+		text-decoration:underline;
+		color:$bluegreen;
+	}
+
+
+}
+
+.services {
+	 p {margin-top:0;}
+
+	 a {
+	 	text-decoration:none;
+	 	color:$gray-text;
+	 	&:hover {
+	 		text-decoration:none;
+
+	 		p {
+	 			color:$link-color;
+	 		}
+
+	 		h3 {
+	 			color:$link-color;
+	 		}
+
+	 		.service-icon {
+	 			color:$link-color;
+	 		}
+	 	}
+
+	 }
+}
+
+.service-icon {
+	color:$blue-light;
+	@include font-size(70);
+
+	&.icon-meeting {
+		@include font-size(66);
+
+	}
+
+	&.icon-book {
+		@include font-size(83);
+
+	}
+
+	&.icon-syringe{
+		@include font-size(73);
+
+	}
+
+	&.icon-globe {
+		@include font-size(70);
+
+	}
+
+}
+
+.patient-form {
+		text-decoration:none;
+
+  
+	&:hover {
+
+		.icon-file-add {
+			color:$link-color;
+		}
+
+		p {
+			color:$link-color;
+		}
+	}
+ 
+	.icon-file-add {
+		@include font-size(90);
+		color:$orange;
+		text-decoration:none;
+
+		&:hover {
+			text-decoration:none;
+		}
+	}
+	p {color:$bluegreen;} 
+}
+
+
+
+//------------------
+// Contact
+//------------------
+
+
+.header--contact {
+	background:#bad0d5;
+
+
+	label {
+		color:white;
+		font-family:$contentFont-opensans;
+
+	}
+
+	input, select {
+		height:45px;
+		font-family:$contentFont-opensans;
+	}
+
+	select {
+		font-family:$contentFont-opensans;
+
+
+	}
+
+	textarea {
+
+		height:100px;
+		font-family:$contentFont-opensans;
+	}
+
+
+	form {background-color:$bluegreen-dark;}
+
+
+	::-webkit-input-placeholder {
+   		font-family:$contentFont-opensans;
+	}
+	:-moz-placeholder {
+	    font-family:$contentFont-opensans;
+	}
+	::-moz-placeholder {
+	    font-family:$contentFont-opensans;	}
+	:-ms-input-placeholder {
+	    font-family:$contentFont-opensans;
+	}
+}
+
+@include breakpoint(l) {
+	.header--contact {
+		background:#bad0d5 url('../../../../../wp-content/uploads/2016/11/bg-contact.jpg') no-repeat center top;
+
+	}
+}
+

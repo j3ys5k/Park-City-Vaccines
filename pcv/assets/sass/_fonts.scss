@@ -1,0 +1,274 @@
+/* ==========================================================================
+
+// Fonts
+
+========================================================================== */
+
+// ==========================================================================
+// Base – Typography
+// ==========================================================================
+
+
+
+//---------------------------
+// Font Imports
+//---------------------------
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+//---- probably can get rid of -----//
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+//---------------------------
+// Font Families
+//---------------------------
+
+
+
+$titleFont-latolight: 'latolight',arial, sans-serif;
+$contentFont-opensans: 'open_sansregular', arial, sans-serif;
+
+$titleFont-latosemibold:'latosemibold',arial, sans-serif;
+$titleFont-latoreg: 'latoregular', arial, sans-serif;
+$titleFont-latobold: 'latobold', arial, sans-serif;
+
+
+// Body
+body {
+
+  @include font-size($base-font-size);
+  line-height:1.6em;
+}
+
+// Paragraph
+//p { margin: 0 0 20px 0; }
+
+p, ul, ol {
+   font-family:$contentFont-opensans;
+   line-height:1.75em;
+}
+
+li ul, li ol {
+	margin-top:1.2em;
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  &:active, &:hover {
+    color: $base-link-hover-color;
+    outline-width: 0;
+    text-decoration: none;
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: $titleFont-latolight;
+  
+  
+}
+
+h1 {
+  @include font-size(42);
+  color:$bluegreen-dark;
+  
+
+ 
+}
+h2 {
+  @include font-size(26); //24
+  color:$bluegreen;
+ 
+}
+h3 {
+    @include font-size(20); //18
+    color:$bluegreen;
+}
+h4{
+ 
+}
+h5 {
+ 
+}
+
+
+
+// Bold and Strong
+b, strong, .strong { font-weight: 700; }
+
+// Italics
+em, .em { font-style: italic; }
+
+// Abbreviation
+abbr[title], .abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+// Definition
+dfn { font-style: italic; }
+
+// Small
+small, .small {
+  @include font-size(13);
+  @include line-height(16);
+}
+
+// Mark
+mark, .mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+// Sub and Sup
+sub, .sub, sup, .sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub, .sub { bottom: -0.25em; }
+sup, .sup { top: -0.5em; }
+
+// Del
+del, .del { text-decoration: line-through; }
+
+// Images
+figure { margin: 1em 40px; }
+
+// Horizontal Rules
+hr, .hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 1px;
+  background: #eee;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+//---------------------
+//   Icon Fonts
+//----------------------
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?xid38x');
+  src:  url('../fonts/icomoon.eot?xid38x#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xid38x') format('truetype'),
+    url('../fonts/icomoon.woff?xid38x') format('woff'),
+    url('../fonts/icomoon.svg?xid38x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-syringe:before {
+  content: "\e905";
+}
+.icon-book:before {
+  content: "\e900";
+}
+.icon-file-add:before {
+  content: "\e901";
+}
+.icon-globe:before {
+  content: "\e902";
+}
+.icon-meeting:before {
+  content: "\e903";
+}
+.icon-paste:before {
+  content: "\e904";
+}
+.icon-menu:before {
+  content: "\e617";
+}
+.icon-airplane:before {
+  content: "\e600";
+}
+.icon-phone:before {
+  content: "\e610";
+}
+.icon-search:before {
+  content: "\e611";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-twitter-old:before {
+  content: "\e906";
+}
+.icon-facebook:before {
+  content: "\e907";
+}
+.icon-social:before {
+  content: "\e907";
+}
+

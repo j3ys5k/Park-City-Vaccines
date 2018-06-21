@@ -1,0 +1,48 @@
+/* ==========================================================================
+
+// Header
+
+========================================================================== */
+
+
+.header {
+
+	&__logo {
+
+	}
+
+	&__contact{
+
+	}
+
+	&__phone {
+		padding-top:7px;
+		@include font-size(33);
+		//font-family:$contentFont-opensans;
+		font-family:$titleFont-latobold;
+		color:$bluegreen-dark;
+		//font-weight:bold;
+		a {
+			text-decoration:none;
+			color:$bluegreen-dark;
+		}
+	}
+
+	&__address {
+
+		@include font-size(12);
+		font-family:$contentFont-opensans;
+		margin-top:0.25em;
+
+		a {
+			text-decoration:none;
+			color:$bluegreen-dark;
+			&:hover {text-decoration:underline;} /*--*/
+
+		}
+
+
+	}
+
+}
+

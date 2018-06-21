@@ -1,0 +1,56 @@
+/* ==========================================================================
+
+// Colors
+
+========================================================================== */
+
+//-----------------------
+//   Main Colors
+//-----------------------
+
+$orange:  				#f78f2c;
+$orange-dark: 			#ca8340;
+$bluegreen:             #0e677b;
+$bluegreen-dark:        #07343e;
+
+$link-color:			#2e9cb8;
+
+$gray-light:            #fbfafa;
+$gray-text:				#7b7d7d;  // text
+$gray-dark:	            #5c5956;  // footer
+
+$blue-xlight:           #eefcff #eefcff;
+$blue-light:             #abdae5; // icons
+$blue-med: 				 #baebf6; 
+
+   
+//-----------------------
+//   Gradients
+//-----------------------
+
+//gradient  #f48c2a    #f7ab62;
+
+.gradient--orange {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ab62+0,f48c2a+100 */
+background: #f7ab62; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7ab62 0%, #f48c2a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7ab62 0%,#f48c2a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7ab62 0%,#f48c2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ab62', endColorstr='#f48c2a',GradientType=0 ); /* IE6-9 */
+}
+
+
+//-----------------------
+//   Background Colors
+//-----------------------
+
+
+.bg--gray {
+
+	background-color:$gray-light;
+}
+
+.bg--gray-dark {
+
+	background-color:$gray-dark;
+}
